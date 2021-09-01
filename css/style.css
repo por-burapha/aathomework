@@ -1724,4 +1724,9 @@ width: 99%;
 
 .cons-img {
     margin-top: 3rem;
+    border: 1px solid #df0031;;
+}
+
+.cons-img-h2 {
+    border-bottom: 1px solid #df0031;
 }
