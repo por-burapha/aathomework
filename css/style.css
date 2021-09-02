@@ -147,9 +147,9 @@ p {
     margin: 0 5px;
 }
 
-.navStyle ul li:first-child {
+/* .navStyle ul li:first-child {
 	/*margin:0px;*/;
-}
+ */
 
 .navStyle ul li:last-child {
     margin: 0 0 0 23px;
