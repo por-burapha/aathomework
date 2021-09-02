@@ -1730,3 +1730,12 @@ width: 99%;
 .cons-img-h2 {
     border-bottom: 1px solid #df0031;
 }
+
+.head-portfolio {
+    text-align: center;
+}
+
+.portfolio-link:hover{
+    text-decoration: none;
+    color: #df0031;
+}
