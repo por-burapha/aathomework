@@ -554,6 +554,11 @@ img {
     padding-bottom: 60px;
 }
 
+.portfolio-month {
+    text-align: center;
+    padding-top: 8px;
+}
+
 
 /* Happy Clients
 ---------------------------------*/
@@ -1102,8 +1107,7 @@ img {
 #filters ul li a h5 {
     background: none repeat scroll 0 0 #f7f7f7;
     border-radius: 4px;
-    display: inline-block;
-    
+    display: inline-block;    
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 5px;
@@ -1563,7 +1567,7 @@ div.mc-image {
     bottom: 40px;
     padding: 10px 20px;
     text-indent: 0px;
-    moz-border-radius: 0px;
+    border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
     z-index: 1000;
@@ -1738,4 +1742,12 @@ width: 99%;
 .portfolio-link:hover{
     text-decoration: none;
     color: #df0031;
+}
+
+.portfolio-li-buttom {
+    margin-bottom: 3rem;
+}
+
+.portfolio-footer {
+    background: #232323;
 }
