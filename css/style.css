@@ -49,12 +49,12 @@ a, a:hover, a:active {
 }
 
 
-/* Styles
----------------------------------*/
+/* Style */
 body {
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'db_thaitextregular'; */
+    /* font-size: 14px; */
     font-weight: normal;
     color: #888888;
     margin: 0;
@@ -63,7 +63,8 @@ body {
 h2 {
     font-size: 38px;
     color: #222222;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
     text-align: center;
@@ -71,7 +72,8 @@ h2 {
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     font-weight: 600;
     color: #222222;
     font-size: 18px;
@@ -81,13 +83,15 @@ h3 {
 h6 {
     font-size: 16px;
     color: #888888;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     font-weight: 400;
     text-align: center;
     margin: 0 0 60px 0;
 }
 
 p {
+    font-family: 'Kanit', sans-serif;
     line-height: 24px;
     margin: 0;
 }
@@ -159,7 +163,8 @@ p {
     display: block;
     font-size: 14px;
     color: #222222;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
@@ -250,7 +255,8 @@ p {
     color: #FFF;
     line-height: 52px;
     margin: 0 0 26px 0;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     text-align: left;
 }
 
@@ -266,7 +272,8 @@ p {
 }
 
 a.read_more2 {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     display: block;
     font-size: 16px;
     width: 178px;
@@ -356,7 +363,8 @@ a.read_more2:hover {
 }
 
 .service_block h3 {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #111111;
@@ -442,7 +450,8 @@ a.contact_btn {
     font-size: 16px;
     color: #df0031;
     border-radius: 3px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     font-weight: 600;
     border: 2px solid #df0031;
     transition: all 0.2s ease-in-out;
@@ -1016,6 +1025,12 @@ img {
     color: #fff;
 }
 
+@media (max-width: 768px) {
+    .contact_info h3{
+        font-size: 18px;
+    }
+}
+
 /* Animation Timers
 ---------------------------------*/
 .delay-02s {
@@ -1131,7 +1146,8 @@ img {
 
 .section-title h2 {
     color: #222222;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
     margin: 0 0 15px;
@@ -1142,7 +1158,8 @@ img {
 .section-title span {
     display: block;
     color: #888888;
-    font-family: 'Open Sans',sans-serif;
+    /* font-family: 'Open Sans',sans-serif; */
+    font-family: 'Kanit', sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 0 0 60px;
@@ -1404,7 +1421,8 @@ img {
 .project-section-title h1 {
     margin-bottom: 5px!important;
     letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Kanit', sans-serif;
 }
 
 .project-page {
@@ -1634,6 +1652,14 @@ div.mc-image {
 p{
 font-size:14px;
 }
+
+@media (max-width: 768px) {
+    .img-wapper{
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+}
+
 .hero_section {
 position: relative;
 padding-top: 10px;
@@ -1740,6 +1766,7 @@ width: 99%;
 
 .head-portfolio {
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 
 .portfolio-link:hover{
