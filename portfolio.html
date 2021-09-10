@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=], initial-scale=1.0">
@@ -16,11 +15,13 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&display=swap'); </style>   
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&display=swap');</style>   
     <title>ผลงานของเรา</title>
 </head>
 <body>
-    <header id="header_wrapper">
+    <header id="header_wrapper" class="scroll-to-fixed-fixed">
         <div class="container">
           <div class="header_box">
             <div class="logo"><a href="index.html"><img src="img/logoa.png" alt="logo"></a></div>
@@ -49,28 +50,78 @@
         <div class="w3-container w3-theme w3-card">
             <h1 class="head-portfolio">ผลงานของเรา</h1>
         </div>
+        <div class="stuck"><img src="img/icon-btn2.png"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 portfolio-month portfolio-month-border">
-                    <h4><a href="hatairaj.html" class="portfolio-link">เดือนสิงหาคม 2564</a></h4>
-                    <h4><a href="klong-ha.html" class="portfolio-link">เดือนกรกฎาคม 2564</a></h4>
-                    <h4><a href="klong-si.html" class="portfolio-link">เดือนมิถุนายน 2564</a></h4>
-                    <h4><a href="boonkum.html" class="portfolio-link">เดือนพฤษภาคม 2564</a></h4>
-                    <h4><a href="muangthong.html" class="portfolio-link">เดือนเมษายน 2564</a></h4>
-                    <h4><a href="modi.html" class="portfolio-link">เดือนมีนาคม 2564</a></h4>
-                    <h4><a href="shabu-petchkasem.html" class="portfolio-link">เดือนกุมภาพันธ์ 2564</a></h4>
-                    <h4><a href="rama2-soi28.html" class="portfolio-link">เดือนมกราคม 2564</a></h4>
-                    <h4><a href="nangklao.html" class="portfolio-link">เดือนตุลาคม 2563</a></h4>
-                    <h4><a href="pu-at.html" class="portfolio-link">เดือนกุมภาพันธ์ 2563</a></h4> 
-                    <h4><a href="rangsit.html" class="portfolio-link">เดือนมกราคม 2563</a></h4>
-                    <h4><a href="chonburi.html" class="portfolio-link">เดือนพฤศจิกายน 2562</a></h4>    
-                </div>            
-                <div class="col-md-8">
+                    <div id="accordion">                       
+                        <h3>สิงหาคม 2564</h3> 
+                            <div>
+                                <p><a class="portfolio-link" href="klong-hok.html">งานโครงสร้าง</a></p>
+                                <p><a class="portfolio-link" href="muangthong.html">งานสร้างกำแพง - ไม้ระแนง</a></p>
+                                <p><a class="portfolio-link" href="nangklao.html">งานทาสี - งานไฟฟ้า</a></p>
+                                <p><a class="portfolio-link" href="kitchen-ladpakao.html">งานหลังคา - ปูกระเบื้อง</a></p>
+                            </div>
+                        <h3>กรกฎาคม 2564</h3>
+                            <div>
+                                <p><a class="portfolio-link" href="boonkum.html">งานโครงสร้าง</a></p>
+                                <p><a class="portfolio-link" href="pu-at.html">งานสร้างกำแพง - ไม้ระแนง</a></p>
+                                <p><a class="portfolio-link" href="electricity-aid.html">งานทาสี - งานไฟฟ้า</a></p>
+                                <p><a class="portfolio-link" href="klong-ha.html">งานหลังคา - ปูกระเบื้อง</a></p>
+                            </div>
+                        <h3>มิถุนายน 2564</h3>
+                            <div>
+                                <p><a class="portfolio-link" href="hatairaj.html">งานโครงสร้าง</a></p>
+                                <p><a class="portfolio-link" href="klong-si.html">งานสร้างกำแพง - ไม้ระแนง</a></p>
+                                <p><a class="portfolio-link" href="shabu-electricity.html">งานทาสี - งานไฟฟ้า</a></p>
+                                <p><a class="portfolio-link" href="klonk-kao.html">งานหลังคา - ปูกระเบื้อง</a></p>
+                            </div>
+                        <h3>พฤษภาคม 2564</h3>
+                            <div>
+                                <p><a class="portfolio-link" href="rama2-soi28.html">งานโครงสร้าง</a></p>
+                                <p><a class="portfolio-link" href="rama2.html">งานสร้างกำแพง - ไม้ระแนง</a></p>
+                                <p><a class="portfolio-link" href="rangsit.html">งานทาสี - งานไฟฟ้า</a></p>
+                                <p><a class="portfolio-link" href="chonburi.html">งานหลังคา - ปูกระเบื้อง</a></p>
+                            </div>
+                        <h3>เมษายน 2564</h3>
+                            <div>
+                                <!-- <p><a href="">งานโครงสร้าง</a></p> -->
+                                <p><a class="portfolio-link" href="lamlukka.html">งานสร้างกำแพง - ไม้ระแนง</a></p>
+                                <p><a class="portfolio-link" href="lumlukka-klong-ha.html">งานทาสี - งานไฟฟ้า</a></p>
+                                <p><a class="portfolio-link" href="modi.html">งานหลังคา - ปูกระเบื้อง</a></p>
+                            </div>
+                        <h3>มีนาคม 2564</h3>
+                            <div>
+                                <!-- <p><a href="">งานโครงสร้าง</a></p> -->
+                                <!-- <p><a href="">งานสร้างกำแพง - ไม้ระแนง</a></p> -->
+                                <p><a class="portfolio-link" href="shabu-petchkasem.html">งานทาสี - งานไฟฟ้า</a></p>
+                                <p><a class="portfolio-link" href="banglamung.html">งานหลังคา - ปูกระเบื้อง</a></p>
+                            </div>
+                        <h3>กุมภาพันธ์ 2564</h3>
+                            <div>
+                                <!-- <p><a href="">งานโครงสร้าง</a></p>
+                                <p><a href="">งานสร้างกำแพง - ไม้ระแนง</a></p>
+                                <p><a href="">งานทาสี - งานไฟฟ้า</a></p> -->
+                                <p><a class="portfolio-link" href="thanyaburi.html">งานหลังคา - ปูกระเบื้อง</a></p>
+                            </div>
+                        <h3>มกราคม 2564</h3>
+                            <div>
+                                <p><a class="portfolio-link" href="bon-kai.html">งานโครงสร้าง</a></p>
+                                <!-- <p><a href="">งานสร้างกำแพง - ไม้ระแนง</a></p>
+                                <p><a href="">งานทาสี - งานไฟฟ้า</a></p>
+                                <p><a href="">งานหลังคา - ปูกระเบื้อง</a></p> -->
+                            </div>
+                    </div>   
+                </div>
+
+
+            <!-- portfolio detail -->
+                <div class="col-md-8 portfolio-detail">
                     <ul class="w3-ul w3-border-top">
-                        <li class="w3-theme-l5">
+                        <!-- <li class="w3-theme-l5">
                         <a class="w3-button w3-xlarge w3-circle w3-theme-action"
                         style="position:fixed;top:48px;right:24px;">+</a>
-                        </li>
+                        </li> -->
                         <li class="w3-theme-l3">
                             <a href="kitchen-ladpakao.html" class="portfolio-link">
                                 <p>งาน Build-in ห้องครัว วัดลาดปลาเค้า</p>
@@ -212,6 +263,13 @@
     <script src="contact/jqBootstrapValidation.js"></script>
     <script src="contact/contact_me.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+    </script>
     
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMTZJ85"
