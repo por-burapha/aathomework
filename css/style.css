@@ -129,18 +129,20 @@ p {
     display: none;
 }
 
-/* .scroll-to-fixed-fixed {
+.scroll-to-fixed-fixed {
     z-index: 1000;
     position: fixed;
     top: 0px;
     margin-left: 0px;
     width: 1349px;
     left: 0px;
-} */
+}
 	
 
 /* Nav Styles
 ---------------------------------*/
+
+
 .navbar-inverse {
     background-color: transparent;
     border-color: transparent;
@@ -242,7 +244,6 @@ p {
 
 .hero_section {
     position: relative;
-    padding-top: 50px;
 }
 
 .stuck {
@@ -294,7 +295,7 @@ p {
 
 .top_left_cont p {
     font-size: 16px;
-    color: #FFABAB;
+    color: #FFFFFF;
     margin: 0 0 30px 0;
     line-height: 26px;
 }
@@ -329,11 +330,6 @@ a.read_more2:hover {
     padding-top: 12rem;
 }
 	
-
-
-
-
-
 
 
 /* Services
@@ -405,6 +401,24 @@ a.read_more2:hover {
     margin: 0px;
 }
 	
+.to-top {
+    width: 45px;
+    height: 45px;
+    background: red;
+    position: fixed;
+    bottom: 2%;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 25px;
+    right: 2%;
+    cursor: pointer;
+    text-align: center;
+    z-index: 9999;
+}
+
+.to-top:hover {
+    background: #df0031;
+} 
 
 
 /* Latest Work
@@ -476,7 +490,7 @@ a.contact_btn {
     text-align: center;
     line-height: 49px;
     font-size: 16px;
-    color: #df0031;
+    color: #000000;
     border-radius: 3px;
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Kanit', sans-serif;
@@ -822,7 +836,7 @@ img {
 /* Contact
 ---------------------------------*/
 .page_section.contact {
-    padding: 90px 0 100px;
+    padding: 50px 0 50px;
 }
  
 .contact_section {
