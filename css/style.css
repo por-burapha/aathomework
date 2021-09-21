@@ -57,7 +57,7 @@ a, a:hover, a:active {
 
 /* Style */
 body {
-    background: #fff;
+    background: #ffffff;
     font-family: 'Kanit', sans-serif;
     /* font-family: 'db_thaitextregular'; */
     /* font-size: 14px; */
@@ -65,6 +65,7 @@ body {
     color: #888888;
     margin: 0;
 }
+
 
 h2 {
     font-size: 38px;
@@ -106,6 +107,7 @@ p {
     margin: 0;
 }
 
+
 /* Header Styles
 ---------------------------------*/
 
@@ -136,6 +138,10 @@ p {
     margin-left: 0px;
     width: 1349px;
     left: 0px;
+}
+
+.test {
+    margin-top: 20px;
 }
 	
 
@@ -1843,4 +1849,8 @@ width: 99%;
 
 .portfolio-detail-page {
     padding-top: 2rem;
+}
+
+.portfolio-detail-page-color {
+    background: #f5f5f5;
 }
